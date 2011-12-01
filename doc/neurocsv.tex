@@ -1,0 +1,40 @@
+
+\documentclass{article}
+
+
+\usepackage{verbatim} 
+\usepackage{listings} 
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[margin=2cm]{geometry}
+%\usepackage{alltt}
+\usepackage{syntax}
+\usepackage{amsmath}
+
+
+\title{Proposal for standardisation of csv for improving interoperability in computational neuroscience}
+\author{Michael Hull}
+
+
+\lstset{% general command to set parameter(s)
+basicstyle=\footnotesize, % print whole listing small
+keywordstyle=\color{blue}, %\bfseries\underbar,
+identifierstyle=, % nothing happens
+commentstyle=\color{OliveGreen}, % white comments
+stringstyle=\ttfamily, % typewriter type for strings
+showstringspaces=false, % no special string spaces
+language=python,
+frame=lines,
+float=tbfh}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\section{Motivation}
+
+\section{Examples}
+\subsection{Example 1}
+\verbatiminput{../examples/test1.csv}
+
+\end{document}

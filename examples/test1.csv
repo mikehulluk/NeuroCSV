@@ -1,0 +1,9 @@
+# My CSV FILE
+#!{'author':'Mike Hull', 'description':'A test CSV file'}
+#!COLUMN0: {'label':'t', 'unit':'ms' }
+#!COLUMN1: {'label':'membrane_voltage', 'unit':'mV' }
+#!COLUMN2: {'label':'membrane_current', 'unit':'pS/cm2' }
+0.000, -75.000, 2.300
+0.010, -75.000, 2.300
+0.020, -75.000, 2.300
+0.030, -75.000, 2.300
