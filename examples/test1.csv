@@ -3,6 +3,8 @@
 #!COLUMN0: {'label':'t', 'unit':'ms' }
 #!COLUMN1: {'label':'membrane_voltage', 'unit':'mV' }
 #!COLUMN2: {'label':'membrane_current', 'unit':'pS/cm2' }
+#@ EVENT {' '} 1.00 1.02 \
+#@             1.13 2.56
 0.000, -75.000, 2.300
 0.010, -75.000, 2.300
 0.020, -75.000, 2.300
